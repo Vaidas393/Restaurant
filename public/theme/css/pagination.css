@@ -1,0 +1,72 @@
+/* pagination links */
+.pl-4, .px-4 {
+padding-left: 1.5rem !important;
+}
+
+.pb-2, .py-2 {
+padding-bottom: .5rem !important;
+}
+
+.pt-2, .py-4 {
+padding-top: .5rem !important;
+}
+
+.bg-white {
+line-height: 0.6;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+border-radius: 0;
+box-shadow: none !important;
+font-size: 13px;
+cursor: pointer;
+border: 2px solid #c49b63 !important;
+background-color: transparent !important;
+color: #c49b63;
+}
+
+.text-sm {
+  margin-top: 10px;
+}
+
+.bg-white:hover {
+color: #fff;
+font-size: bold;
+background-color: #c49b63 !important;
+border-color: #78d5ef;
+}
+
+nav svg {
+height: 20px;
+}
+
+svg {
+overflow: hidden;
+vertical-align: middle;
+}
+
+.wrap-pagination-info {
+margin-top: 1px;
+border: 2px solid #c49b63;
+padding-top: 1px;
+position: absolute;
+}
+
+.flex.items-center.justify-between{
+  padding-left: 100px ;
+
+}
+
+.wrap-pagination-info .hidden {
+display: block !important;
+}
+
+.wrap-pagination-info .rounded-1-md {
+margin-right: 5px;
+}
+
+.wrap-pagination-info .rounded-r-md {
+margin-left: 5px;
+}
+
+.shadow-sm.rounded-md{
+  display: none;
+}
